@@ -74,8 +74,8 @@ def query_products():
         return {"message": message}, 400
 
 
-if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+# if __name__ == '__main__':
+#     app.run(port=5000, debug=True)
 
 
 

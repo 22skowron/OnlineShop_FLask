@@ -1,7 +1,5 @@
 from mysql_db_config import create_connection_pool, close_connection
 from logger import logger_mysql
-import mysql.connector
-from mysql.connector.errors import Error as MySQL_Error
 from mysql.connector.errors import PoolError
 import time
 
